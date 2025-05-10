@@ -10,8 +10,8 @@ export default function App() {
       const handleMediaChange = (e) => {
         setImageSrc(
           e.matches
-          ? "/images/image-product-desktop.jpg"
-          : "/images/image-product-mobile.jpg"
+            ? "/images/image-product-desktop.jpg"
+            : "/images/image-product-mobile.jpg"
         );
       };
 
@@ -36,14 +36,16 @@ export default function App() {
             A floral, solar and voluptuous interpretation composed by Oliver
             Polge, Perfumer, Creator for the House of CHANEL.
           </p>
-          <div className="price-container">
-            <span className="current-price">$149.99</span>
-            <span className="previous-price">$169.99</span>
+          <div>
+            <div className="price-container">
+              <span className="current-price">$149.99</span>
+              <span className="previous-price">$169.99</span>
+            </div>
+            <button className="add-to-cart-btn">
+              <img src="/images/icon-cart.svg" alt="cart" />
+              Add to Cart
+            </button>
           </div>
-          <button className="add-to-cart-btn">
-            <img src="/images/icon-cart.svg" alt="cart" />
-            Add to Cart
-          </button>
         </div>
       </div>
     </main>
