@@ -92,7 +92,7 @@ p {
         width: default;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 60%;
+        width: 50%;
         min-width: 750px;
         max-width: 800px;
     }
@@ -101,6 +101,7 @@ p {
         border-radius: 10px 0 0 10px;
     }
     .information-container {
+        margin: 20px 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
